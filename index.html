@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- ==================== google font add ============= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <!-- ==================== google font add ============= -->
+  
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+       .card-container{
+         width: 100vw;
+         height: 100vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background-color: hsl(212, 45%, 89%);
+       }
+       .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 100%);
+       }
+
+       img{
+        max-width: 100%;
+        width: 300px;
+        border-radius: 10px;
+       }
+
+       h1{
+        text-wrap: wrap;
+        font-family: outfit;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        text-align: center;
+       }
+
+       p{
+        font-size: 16px;
+        color: hsl(216, 15%, 48%);
+        text-align: center;
+        padding-bottom: 40px;
+       }
+
+  </style>
+ 
+ 
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <img src="images/image-qr-code.png" alt="">
+      <h1>Improve your front-end <br> skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend <br> Mentor and take your coding skils to <br> the next level</p>
+    </div>
+  </div>
+ 
+</body>
+</html>
